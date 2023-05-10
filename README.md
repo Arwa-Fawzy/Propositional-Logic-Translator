@@ -30,3 +30,24 @@ Here are some examples of how to use the translator and validator:
 ![image](https://user-images.githubusercontent.com/101527083/234134960-2e10ce49-bf86-4254-a96e-84ca8acaf9de.png)
 
 ![image](https://user-images.githubusercontent.com/101527083/234135059-09e4e30d-8e54-453b-848e-ee4fe6d1b6f3.png)
+
+Rules of inference are logical principles that allow us to infer new statements from given premises. These rules are used in formal logic to determine the validity of an argument, which is the extent to which its premises logically support its conclusion. Here are some common rules of inference used to check the validity of premises:
+
+**Modus Ponens**: This rule states that if we have a conditional statement of the form "if A, then B," and we know that A is true, we can infer that B is also true. Symbolically, **if A → B and A, then we can infer B**.
+
+**Modus Tollens**: This rule is the contrapositive of modus ponens. It states that if we have a conditional statement of the form "if A, then B," and we know that B is false, we can infer that A must also be false. Symbolically, **if A → B and ~B, then we can infer ~A**.
+
+**Disjunctive Syllogism**: This rule allows us to infer the truth of one of two disjuncts if we know that the other is false. If we have a disjunctive statement of the form "A or B," and we know that A is false, we can infer that B must be true. Symbolically, **if A ∨ B and ~A, then we can infer B**.
+
+**Hypothetical Syllogism**: This rule allows us to chain together conditional statements. If we have two conditional statements of the form "if A, then B" and "if B, then C," we can infer a third conditional statement of the form "if A, then C." Symbolically, **if A → B and B → C, then we can infer A → C**.
+
+**Conjunction**: This rule allows us to combine two true statements into a single statement. If we know that A and B are both true, we can infer that "A and B" is also true. Symbolically, **if A and B, then we can infer A ∧ B**.
+
+**Simplification**: This rule is the inverse of conjunction. It allows us to derive a statement from a conjunction of two statements. If we know that "A and B" is true, we can infer that A is true and B is true. Symbolically, **if A ∧ B, then we can infer A and B**.
+
+**Addition**: This rule allows us to add a statement to a conjunction. If we know that A is true, we can infer that "A or B" is true. Symbolically, **if A, then we can infer A ∨ B**.
+
+These are just a few examples of the many rules of inference used in formal logic. By applying these rules correctly, we can determine the validity of premises and evaluate the strength of arguments.
+
+![image](https://github.com/Arwa-Fawzy/Propositional-Logic-Translator/assets/101527083/8ded7df3-9265-47e3-af39-77fcb70eba65)
+
